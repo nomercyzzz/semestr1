@@ -1,0 +1,171 @@
+body {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 28, 28);
+}
+
+header {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgba(229, 213, 197, 0.553);
+    border-bottom-width: 4px;
+    padding-top: 4px;
+    height: 96px;
+}
+
+nav ul {
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+aside {
+    display: flex;
+    border-left: 5px solid rgba(229, 213, 197, 0.553);
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+    margin-right: 15px; 
+    padding-left: 15px;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+footer{
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    border: 5px solid rgba(229, 213, 197, 0.553);
+}
+.icon_tg{
+    height: 25px;
+    width: 25px;
+}
+.icon_vk{
+    height: 25px;
+    width: 25px; 
+}
+
+.myname {
+    flex: 1; 
+    text-align: center;
+}
+#Navig{
+    display: flex;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.xxx{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.xxx::before{
+    content: "•";
+    margin-right: 5px
+}
+p {
+    color: rgba(229, 213, 197, 0.553); 
+}
+
+.myname p {
+    color: rgba(229, 213, 197, 0.553); 
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgba(229, 213, 197, 0.553); 
+}
+h3 {
+    color: rgba(229, 213, 197, 0.553); 
+}
+
+h2 {
+    color: rgba(229, 213, 197, 0.553); 
+}
+aside h4 {
+    color: rgba(229, 213, 197, 0.553);
+}
+h4 {
+    margin-top: 0px; 
+    color: rgba(229, 213, 197, 0.553); 
+}
+h4 a{
+    color: rgba(229, 213, 197, 0.553); 
+    text-decoration: none;
+}
+h4 a:active{
+    color: rgba(229, 213, 197, 0.846);
+}
+.yes{
+    display: none;
+}
+.custom-checkbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    border: 2px solid rgba(229, 213, 197, 0.553);  
+    border-radius: 4px; 
+    position: relative; 
+    cursor: pointer; 
+}
+.custom-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    width: 4px;
+    height: 9px;
+    border: solid rgba(229, 213, 197, 0.846);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+.yes:checked + .custom-checkbox::after {
+    opacity: 1; 
+}
+tr:hover{
+    background-color: rgba(100, 100, 100, 0.266);
+}
+a:active{
+    color: rgba(229, 213, 197, 0.846);
+}
+th{
+    color: rgba(229, 213, 197, 0.553); 
+    text-align: left;
+}
+td{
+    color: rgba(229, 213, 197, 0.553);
+    text-align: left; 
+}
+table{
+    border: 5px solid rgba(229, 213, 197, 0.553); 
+    border-radius: 10px ;
+}
+#sec1 table{
+    width: 100%;
+    height: 100%;
+}
+#sec2 table{
+    width: 100%;
+    height: 100%;
+}
+#html_xxx{
+    margin-left: 5px;
+}
